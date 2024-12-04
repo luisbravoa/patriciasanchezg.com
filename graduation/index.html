@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>Patricia's Graduation</title>
+        <style>
+            html, body {
+                margin: 0;
+                padding: 0;
+                height: 100%;
+                background-color: #d7e037;
+            }
+            .wrapper {
+                display: flex;
+                height: 100%;
+            }
+            .content {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .content img {
+                width: 100%;
+                max-width: 1024px;
+                min-width: 500px;
+            }
+            .controls {
+                position: fixed;
+                bottom: 0;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                left: 0;
+                right: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="content">
+                <img title="Image of graduate Patricia Sanchez Gomez" src="./resources/slide.jpg">
+            </div>
+            <div class="controls">
+                <audio data-bind="if: audiosrc, attr: {src: audiosrc}" id="name_recording" controls="" src="./resources/audio.mp3">
+                </audio>
+            </div>
+        </div>
+    </body>
+</html>

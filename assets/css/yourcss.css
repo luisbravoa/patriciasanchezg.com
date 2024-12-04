@@ -1,0 +1,126 @@
+.mini-desc{
+    text-align: justify;
+}
+
+.body-content{
+    min-height: inherit;
+}
+
+.bg-line{
+    background-image: url('../images/bg-line2.png');
+}
+
+body{
+    background-color: #033f1c;
+}
+
+/*
+#navigation .navigation-list li.active{
+    background-color: #176035;
+}
+*/
+
+/*
+#navigation .navigation-list li.active:after{
+    color: #176035;
+}
+
+
+#249EBD #033f1c
+*/
+
+#navigation .navigation-list li.active:after {
+  border-top: 10px solid #1e7b44;
+}
+
+
+#navigation .navigation-list li{
+    background-color: #1e7b44;
+}
+
+#navigation .navigation-list li a{
+    background-color: transparent;
+}
+
+#navigation .navigation-list li.active{
+    border-top:#7da769;
+}
+
+
+#navigation .navigation-list li:nth-child(even) a{
+    background-color: #7da769;
+}
+#navigation .navigation-list li:nth-child(even).active:after{
+    border-top: 10px solid #7da769;
+}
+
+
+.title .icn-title, .portrait .box-note, .portrait .portrait-img-area .profile-links a.facebook, .portrait .portrait-img-area .profile-links a.twitter, #about .box-testimonial .oComment, #about .control-testi-slider a:hover, #resume .list-skills li .progress .progress-bar, #resume .list-points-progress li .pogress-point .point-indicator{
+    background-color: #1e7b44;
+}
+#resume .list-skills li:nth-child(even) .progress-bar{
+    background-color: #7da769;
+}
+#about .control-testi-slider a{
+    color: #1e7b44;
+}
+.title .icn-title:after, .portrait .box-note:after{
+    border-top: 10px solid #1e7b44;
+}
+#about .box-testimonial .oComment:after{
+    border-left: 10px solid #1e7b44;
+}
+
+
+.portrait{
+box-shadow: none;
+}
+
+.list-strip li{
+    background-color: #a76989;
+}
+/*
+.list-strip li:nth-child(even){
+    background-color: #8c566f;
+}
+*/
+
+
+.content{
+    box-shadow: 0 10px 0 #022812;
+}
+
+
+#wrapper #backtotop {
+  background: #8c566f;
+  box-shadow: 0 10px 0 #022812;
+}
+
+
+
+#resume .time-line .item-event.current .date {
+  border: 5px solid #1e7b44;
+  background: #1e7b44;
+}
+
+#resume .time-line .item-event .date {
+  background: #7da769;
+}
+
+
+#resume .time-line .item-event .event-content h5{
+    color: #1e7b44;
+}
+
+#portfolio .control-profolio li.active, #portfolio .control-profolio li:hover {
+  border: 3px solid #1e7b44;
+}
+
+a {
+  color: #1e7b44;
+  text-decoration: none;
+}
+
+.list-strip li:nth-child(even) {
+  background: #626262;
+}
